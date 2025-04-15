@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-20086c6c04bd7df724ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_resources_prbt_ikfast_manipulator_plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_resources_prbt_ikfast_manipulator_plugin_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_resources_prbt_ikfast_manipulator_plugin_uninstall-Release-968c9cbdd9fc3b10068d.json",
+					"name" : "moveit_resources_prbt_ikfast_manipulator_plugin_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prbt_manipulator_moveit_ikfast_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prbt_manipulator_moveit_ikfast_plugin-Release-696473b57483b0d57615.json",
+					"name" : "prbt_manipulator_moveit_ikfast_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-7c7e2359322b844145db.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shs/ws_moveit/build/moveit_resources_prbt_ikfast_manipulator_plugin",
+		"source" : "/home/shs/ws_moveit/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

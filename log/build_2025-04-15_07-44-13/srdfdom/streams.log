@@ -1,0 +1,105 @@
+[0.014s] Invoking command in '/home/shs/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shs/colcon_ws/install/workshopfun:/home/shs/colcon_ws/install/utm_latlon_converter:/home/shs/colcon_ws/install/smarc_nodered:/home/shs/colcon_ws/install/smarc_bt:/home/shs/colcon_ws/install/smarc_bringups:/home/shs/colcon_ws/install/sam_joy_xbox:/home/shs/colcon_ws/install/sam_joy_teleop:/home/shs/colcon_ws/install/sam_diving_controller:/home/shs/colcon_ws/install/sam_dead_reckoning:/home/shs/colcon_ws/install/ros_tcp_endpoint:/home/shs/colcon_ws/install/ros2_python_examples:/home/shs/colcon_ws/install/mqtt_bridge:/home/shs/colcon_ws/install/dubins_planner:/home/shs/colcon_ws/install/drone_dr:/home/shs/colcon_ws/install/basic_go_to_waypoint:/home/shs/colcon_ws/install/basic_depth_pitch_control:/home/shs/colcon_ws/install/auv_detector:/home/shs/ros2_ws/install/turtlebot3_teleop:/home/shs/ros2_ws/install/turtlebot3_follower:/home/shs/ros2_ws/install/turtlebot3_example:/home/shs/ros2_ws/install/autonomous_tb3:/home/shs/ros2_ws/install/turtle_midpoint:/home/shs/ros2_ws/install/secure_control:/home/shs/ros2_ws/install/robot_math:/home/shs/ros2_ws/install/ai_assitance:/home/shs/install/dive_control:/home/shs/install/basic_go_to_waypoint:/home/shs/install/basic_depth_pitch_control:/home/shs/install/autonomous_tb3:/home/shs/install/ai_assitance:/opt/ros/humble /usr/bin/cmake /home/shs/ws_moveit/src/srdfdom -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/shs/ws_moveit/install/srdfdom
+[0.096s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting CXX compiler ABI info
+[0.201s] -- Detecting CXX compiler ABI info - done
+[0.209s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.209s] -- Detecting CXX compile features
+[0.210s] -- Detecting CXX compile features - done
+[0.229s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.258s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.501s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.706s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.808s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.941s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.949s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.479s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.528s] -- The C compiler identification is GNU 11.4.0
+[1.536s] -- Detecting C compiler ABI info
+[1.617s] -- Detecting C compiler ABI info - done
+[1.625s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.625s] -- Detecting C compile features
+[1.626s] -- Detecting C compile features - done
+[1.629s] -- Looking for C++ include pthread.h
+[1.730s] -- Looking for C++ include pthread.h - found
+[1.731s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.834s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.835s] -- Found Threads: TRUE  
+[1.846s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.871s] -- Configuring done
+[1.885s] -- Generating done
+[1.890s] -- Build files have been written to: /home/shs/ws_moveit/build/srdfdom
+[1.897s] Invoked command in '/home/shs/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shs/colcon_ws/install/workshopfun:/home/shs/colcon_ws/install/utm_latlon_converter:/home/shs/colcon_ws/install/smarc_nodered:/home/shs/colcon_ws/install/smarc_bt:/home/shs/colcon_ws/install/smarc_bringups:/home/shs/colcon_ws/install/sam_joy_xbox:/home/shs/colcon_ws/install/sam_joy_teleop:/home/shs/colcon_ws/install/sam_diving_controller:/home/shs/colcon_ws/install/sam_dead_reckoning:/home/shs/colcon_ws/install/ros_tcp_endpoint:/home/shs/colcon_ws/install/ros2_python_examples:/home/shs/colcon_ws/install/mqtt_bridge:/home/shs/colcon_ws/install/dubins_planner:/home/shs/colcon_ws/install/drone_dr:/home/shs/colcon_ws/install/basic_go_to_waypoint:/home/shs/colcon_ws/install/basic_depth_pitch_control:/home/shs/colcon_ws/install/auv_detector:/home/shs/ros2_ws/install/turtlebot3_teleop:/home/shs/ros2_ws/install/turtlebot3_follower:/home/shs/ros2_ws/install/turtlebot3_example:/home/shs/ros2_ws/install/autonomous_tb3:/home/shs/ros2_ws/install/turtle_midpoint:/home/shs/ros2_ws/install/secure_control:/home/shs/ros2_ws/install/robot_math:/home/shs/ros2_ws/install/ai_assitance:/home/shs/install/dive_control:/home/shs/install/basic_go_to_waypoint:/home/shs/install/basic_depth_pitch_control:/home/shs/install/autonomous_tb3:/home/shs/install/ai_assitance:/opt/ros/humble /usr/bin/cmake /home/shs/ws_moveit/src/srdfdom -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/shs/ws_moveit/install/srdfdom
+[1.899s] Invoking command in '/home/shs/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shs/colcon_ws/install/workshopfun:/home/shs/colcon_ws/install/utm_latlon_converter:/home/shs/colcon_ws/install/smarc_nodered:/home/shs/colcon_ws/install/smarc_bt:/home/shs/colcon_ws/install/smarc_bringups:/home/shs/colcon_ws/install/sam_joy_xbox:/home/shs/colcon_ws/install/sam_joy_teleop:/home/shs/colcon_ws/install/sam_diving_controller:/home/shs/colcon_ws/install/sam_dead_reckoning:/home/shs/colcon_ws/install/ros_tcp_endpoint:/home/shs/colcon_ws/install/ros2_python_examples:/home/shs/colcon_ws/install/mqtt_bridge:/home/shs/colcon_ws/install/dubins_planner:/home/shs/colcon_ws/install/drone_dr:/home/shs/colcon_ws/install/basic_go_to_waypoint:/home/shs/colcon_ws/install/basic_depth_pitch_control:/home/shs/colcon_ws/install/auv_detector:/home/shs/ros2_ws/install/turtlebot3_teleop:/home/shs/ros2_ws/install/turtlebot3_follower:/home/shs/ros2_ws/install/turtlebot3_example:/home/shs/ros2_ws/install/autonomous_tb3:/home/shs/ros2_ws/install/turtle_midpoint:/home/shs/ros2_ws/install/secure_control:/home/shs/ros2_ws/install/robot_math:/home/shs/ros2_ws/install/ai_assitance:/home/shs/install/dive_control:/home/shs/install/basic_go_to_waypoint:/home/shs/install/basic_depth_pitch_control:/home/shs/install/autonomous_tb3:/home/shs/install/ai_assitance:/opt/ros/humble /usr/bin/cmake --build /home/shs/ws_moveit/build/srdfdom -- -j8 -l8
+[1.959s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.960s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.960s] [ 27%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[1.964s] [ 36%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[1.978s] [ 36%] Built target ament_cmake_python_copy_srdfdom
+[2.692s] running egg_info
+[2.693s] creating srdfdom.egg-info
+[2.693s] writing srdfdom.egg-info/PKG-INFO
+[2.693s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[2.693s] writing top-level names to srdfdom.egg-info/top_level.txt
+[2.694s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[2.698s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[2.699s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[2.755s] [ 36%] Built target ament_cmake_python_build_srdfdom_egg
+[3.123s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.168s] [ 45%] Built target gtest_main
+[6.232s] [ 54%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[6.353s] [ 54%] Built target srdfdom
+[10.222s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.268s] [ 63%] Built target gtest
+[10.294s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[10.294s] [ 81%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[13.257s] [ 90%] [32m[1mLinking CXX executable test_cpp_C[0m
+[13.295s] [100%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[13.393s] [100%] Built target test_cpp_C
+[13.434s] [100%] Built target test_cpp_nl_NL.UTF-8
+[13.449s] Invoked command in '/home/shs/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shs/colcon_ws/install/workshopfun:/home/shs/colcon_ws/install/utm_latlon_converter:/home/shs/colcon_ws/install/smarc_nodered:/home/shs/colcon_ws/install/smarc_bt:/home/shs/colcon_ws/install/smarc_bringups:/home/shs/colcon_ws/install/sam_joy_xbox:/home/shs/colcon_ws/install/sam_joy_teleop:/home/shs/colcon_ws/install/sam_diving_controller:/home/shs/colcon_ws/install/sam_dead_reckoning:/home/shs/colcon_ws/install/ros_tcp_endpoint:/home/shs/colcon_ws/install/ros2_python_examples:/home/shs/colcon_ws/install/mqtt_bridge:/home/shs/colcon_ws/install/dubins_planner:/home/shs/colcon_ws/install/drone_dr:/home/shs/colcon_ws/install/basic_go_to_waypoint:/home/shs/colcon_ws/install/basic_depth_pitch_control:/home/shs/colcon_ws/install/auv_detector:/home/shs/ros2_ws/install/turtlebot3_teleop:/home/shs/ros2_ws/install/turtlebot3_follower:/home/shs/ros2_ws/install/turtlebot3_example:/home/shs/ros2_ws/install/autonomous_tb3:/home/shs/ros2_ws/install/turtle_midpoint:/home/shs/ros2_ws/install/secure_control:/home/shs/ros2_ws/install/robot_math:/home/shs/ros2_ws/install/ai_assitance:/home/shs/install/dive_control:/home/shs/install/basic_go_to_waypoint:/home/shs/install/basic_depth_pitch_control:/home/shs/install/autonomous_tb3:/home/shs/install/ai_assitance:/opt/ros/humble /usr/bin/cmake --build /home/shs/ws_moveit/build/srdfdom -- -j8 -l8
+[13.451s] Invoking command in '/home/shs/ws_moveit/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shs/colcon_ws/install/workshopfun:/home/shs/colcon_ws/install/utm_latlon_converter:/home/shs/colcon_ws/install/smarc_nodered:/home/shs/colcon_ws/install/smarc_bt:/home/shs/colcon_ws/install/smarc_bringups:/home/shs/colcon_ws/install/sam_joy_xbox:/home/shs/colcon_ws/install/sam_joy_teleop:/home/shs/colcon_ws/install/sam_diving_controller:/home/shs/colcon_ws/install/sam_dead_reckoning:/home/shs/colcon_ws/install/ros_tcp_endpoint:/home/shs/colcon_ws/install/ros2_python_examples:/home/shs/colcon_ws/install/mqtt_bridge:/home/shs/colcon_ws/install/dubins_planner:/home/shs/colcon_ws/install/drone_dr:/home/shs/colcon_ws/install/basic_go_to_waypoint:/home/shs/colcon_ws/install/basic_depth_pitch_control:/home/shs/colcon_ws/install/auv_detector:/home/shs/ros2_ws/install/turtlebot3_teleop:/home/shs/ros2_ws/install/turtlebot3_follower:/home/shs/ros2_ws/install/turtlebot3_example:/home/shs/ros2_ws/install/autonomous_tb3:/home/shs/ros2_ws/install/turtle_midpoint:/home/shs/ros2_ws/install/secure_control:/home/shs/ros2_ws/install/robot_math:/home/shs/ros2_ws/install/ai_assitance:/home/shs/install/dive_control:/home/shs/install/basic_go_to_waypoint:/home/shs/install/basic_depth_pitch_control:/home/shs/install/autonomous_tb3:/home/shs/install/ai_assitance:/opt/ros/humble /usr/bin/cmake --install /home/shs/ws_moveit/build/srdfdom
+[13.461s] -- Install configuration: "Release"
+[13.461s] -- Installing: /home/shs/ws_moveit/install/srdfdom/lib/libsrdfdom.so.2.0.7
+[13.462s] -- Set runtime path of "/home/shs/ws_moveit/install/srdfdom/lib/libsrdfdom.so.2.0.7" to ""
+[13.462s] -- Installing: /home/shs/ws_moveit/install/srdfdom/lib/libsrdfdom.so
+[13.462s] -- Installing: /home/shs/ws_moveit/install/srdfdom/include/srdfdom
+[13.462s] -- Installing: /home/shs/ws_moveit/install/srdfdom/include/srdfdom/srdfdom
+[13.462s] -- Installing: /home/shs/ws_moveit/install/srdfdom/include/srdfdom/srdfdom/srdf_writer.h
+[13.462s] -- Installing: /home/shs/ws_moveit/install/srdfdom/include/srdfdom/srdfdom/model.h
+[13.462s] -- Installing: /home/shs/ws_moveit/install/srdfdom/include/srdfdom/srdfdom/visibility_control.h
+[13.462s] -- Installing: /home/shs/ws_moveit/install/srdfdom/lib/srdfdom/display_srdf
+[13.463s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[13.463s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[13.463s] -- Installing: /home/shs/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info
+[13.463s] -- Installing: /home/shs/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/top_level.txt
+[13.463s] -- Installing: /home/shs/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/SOURCES.txt
+[13.463s] -- Installing: /home/shs/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/dependency_links.txt
+[13.463s] -- Installing: /home/shs/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/PKG-INFO
+[13.464s] -- Installing: /home/shs/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[13.464s] -- Installing: /home/shs/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[13.464s] -- Installing: /home/shs/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[13.526s] Listing '/home/shs/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[13.526s] Compiling '/home/shs/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py'...
+[13.526s] Compiling '/home/shs/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py'...
+[13.531s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/environment/library_path.sh
+[13.531s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[13.531s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[13.532s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[13.532s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[13.532s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[13.532s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/environment/path.sh
+[13.532s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/environment/path.dsv
+[13.532s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/local_setup.bash
+[13.532s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/local_setup.sh
+[13.532s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/local_setup.zsh
+[13.532s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/local_setup.dsv
+[13.533s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/package.dsv
+[13.533s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[13.533s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[13.533s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-release.cmake
+[13.533s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[13.533s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.533s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[13.534s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[13.534s] -- Installing: /home/shs/ws_moveit/install/srdfdom/share/srdfdom/package.xml
+[13.536s] Invoked command in '/home/shs/ws_moveit/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shs/colcon_ws/install/workshopfun:/home/shs/colcon_ws/install/utm_latlon_converter:/home/shs/colcon_ws/install/smarc_nodered:/home/shs/colcon_ws/install/smarc_bt:/home/shs/colcon_ws/install/smarc_bringups:/home/shs/colcon_ws/install/sam_joy_xbox:/home/shs/colcon_ws/install/sam_joy_teleop:/home/shs/colcon_ws/install/sam_diving_controller:/home/shs/colcon_ws/install/sam_dead_reckoning:/home/shs/colcon_ws/install/ros_tcp_endpoint:/home/shs/colcon_ws/install/ros2_python_examples:/home/shs/colcon_ws/install/mqtt_bridge:/home/shs/colcon_ws/install/dubins_planner:/home/shs/colcon_ws/install/drone_dr:/home/shs/colcon_ws/install/basic_go_to_waypoint:/home/shs/colcon_ws/install/basic_depth_pitch_control:/home/shs/colcon_ws/install/auv_detector:/home/shs/ros2_ws/install/turtlebot3_teleop:/home/shs/ros2_ws/install/turtlebot3_follower:/home/shs/ros2_ws/install/turtlebot3_example:/home/shs/ros2_ws/install/autonomous_tb3:/home/shs/ros2_ws/install/turtle_midpoint:/home/shs/ros2_ws/install/secure_control:/home/shs/ros2_ws/install/robot_math:/home/shs/ros2_ws/install/ai_assitance:/home/shs/install/dive_control:/home/shs/install/basic_go_to_waypoint:/home/shs/install/basic_depth_pitch_control:/home/shs/install/autonomous_tb3:/home/shs/install/ai_assitance:/opt/ros/humble /usr/bin/cmake --install /home/shs/ws_moveit/build/srdfdom

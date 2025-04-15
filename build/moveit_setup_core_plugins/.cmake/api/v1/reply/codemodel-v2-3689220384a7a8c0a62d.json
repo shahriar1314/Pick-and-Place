@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-16dc0d5ea8ab9d4bdb02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_setup_core_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_core_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_core_plugins-Release-e57197c104e8c4853909.json",
+					"name" : "moveit_setup_core_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_core_plugins_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_core_plugins_autogen-Release-80cb25f04ebcfc62855c.json",
+					"name" : "moveit_setup_core_plugins_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_setup_core_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_setup_core_plugins_uninstall-Release-e584fa2ff3c28ffb18ba.json",
+					"name" : "moveit_setup_core_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-dfcb32ec4a6debde5810.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shs/ws_moveit/build/moveit_setup_core_plugins",
+		"source" : "/home/shs/ws_moveit/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
